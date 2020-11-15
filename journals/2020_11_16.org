@@ -4,5 +4,8 @@
 :PROPERTIES:
 :todo: 1605468291211
 :END:
-** tod import own roam files
+** TODO import own roam files
+:PROPERTIES:
+:todo: 1605468320829
+:END:
 **
