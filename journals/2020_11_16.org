@@ -1,0 +1,8 @@
+#+TITLE: Nov 16th, 2020
+
+** TODO Learn logseq
+:PROPERTIES:
+:todo: 1605468291211
+:END:
+** tod import own roam files
+**
