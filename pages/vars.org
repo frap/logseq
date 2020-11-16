@@ -3,6 +3,8 @@
 ** Clojure is a practical language that recognizes the occasional need to maintain a persistent reference to a changing value and provides 4 distinct mechanisms for doing so in a controlled manner - Vars, Refs, Agents and Atoms. Vars provide a mechanism to refer to a mutable storage location that can be dynamically rebound (to a new storage location) on a per-thread basis. Every Var can (but needn’t) have a root binding, which is a binding that is shared by all threads that do not have a per-thread binding. Thus, the value of a Var is the value of its per-thread binding, or, if it is not bound in the thread requesting the value, the value of the root binding, if any.
 
 The special form def creates (and interns) a Var. If the Var did not already exist and no initial value is supplied, the var is unbound:
+** #+BEGIN_SRC clojure
+**
 ** Interning
 The Namespace system maintains global maps of symbols to Var objects (see Namespaces). If a def expression does not find an interned entry in the current namespace for the symbol being def-ed, it creates one, otherwise it uses the existing Var. This find-or-create process is called interning. This means that, unless they have been unmap-ed, Var objects are stable references and need not be looked up every time. It also means that namespaces constitute a global environment in which, as described in Evaluation, the compiler attempts to resolve all free symbols as Vars.
 
