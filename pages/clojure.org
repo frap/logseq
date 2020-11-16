@@ -1,3 +1,4 @@
 #+TITLE: clojure
 
-** [[https://clojure.org/api/cheatsheetl][clojure cheatsheet]] 
+** [[https://clojure.org/api/cheatsheetl][clojure cheatsheet]]
+** [[vars][vars]]
